@@ -1,6 +1,6 @@
 # docker-ripme
 
-John Ross personal version
+John Ross personal version to understand GitHub
 
 Lightweight (alpine) image for [ripme](https://github.com/4pr0n/ripme).
 
