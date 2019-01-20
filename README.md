@@ -12,7 +12,7 @@ I recommend using [docker-compose](https://docs.docker.com/compose/) to handle t
 version: '2'
 services:
     ripme:
-        image: kastang/ripme
+        image: johnross41/ripme
         container_name: ripme
         volumes:
             - /tmp/data:/data
@@ -52,7 +52,7 @@ $ docker-compose run ripme -u 'https://reddit.com/r/pics'
 You can also run this container normally without docker-compose. Replace `/tmp/data` as instructed above:
 
 ```
-# docker run -it -v /tmp/data:/data kastang/ripme
+# docker run -it -v /tmp/data:/data johnross41/ripme
 
 Loaded file:/app/ripme.jar!/rip.properties
 Loaded log4j.properties
@@ -76,5 +76,5 @@ usage: java -jar ripme.jar [OPTIONS]
 Only additional args need to be passed:
 
 ```
-docker run -it -v /tmp/data:/data kastang/ripme -u 'https://reddit.com/r/pics'
+docker run -it -v /tmp/data:/data johnross41/ripme -u 'https://reddit.com/r/pics'
 ```
