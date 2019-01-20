@@ -1,5 +1,7 @@
 # docker-ripme
 
+John Ross personal version
+
 Lightweight (alpine) image for [ripme](https://github.com/4pr0n/ripme).
 
 ## Docker Compose Usage
